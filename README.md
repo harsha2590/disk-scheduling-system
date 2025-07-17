@@ -1,4 +1,5 @@
 # disk-scheduling-system
+```c
 #include <stdio.h> 
 #include <stdlib.h> 
 #include <stdbool.h>
@@ -148,4 +149,4 @@ printf("Servicing request at: %d\n", sorted_requests[i]); total_seek_time += abs
 printf("Total seek time: %d\n\n", total_seek_time
 );
 } 
-
+```c
